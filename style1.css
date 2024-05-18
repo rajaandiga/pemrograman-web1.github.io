@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Background utama */
+}
+
+header {
+    background-color: #20232a; /* Header dan Footer */
+    color: #61dafb; /* Teks header/footer */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #61dafb; /* Border header/footer */
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    position: flex;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #20232a; /* Teks navigasi */
+    font-weight: bold;
+    background-color: #61dafb; /* Navigasi background */
+    padding: 0px 100px;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar-left {
+    width: 200px;
+    padding: 20px;
+    background-color: #20232a; /* Sidebar background */
+    color: #61dafb; /* Teks sidebar */
+    margin-right: 20px;
+}
+
+.sidebar-left h2 {
+    border-bottom: 2px solid #61dafb; /* Border sidebar */
+}
+
+.sidebar-left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-left li {
+    margin: 10px 0;
+}
+
+.sidebar-left a {
+    text-decoration: none;
+    color: #61dafb; /* Teks sidebar */
+}
+
+.content {
+    flex: 1;
+    background-color: #ffffff; /* Konten background */
+    padding: 20px;
+    border: 2px solid #61dafb; /* Border konten */
+    text-align: justify;
+}
+
+.news-article {
+    margin-bottom: 20px;
+}
+
+.news-article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.news-article h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+    color: #20232a; /* Teks konten utama */
+}
+
+.news-article p {
+    color: #2a2a2a;
+}
+
+.news-article a {
+    color: #61dafb; /* Teks link artikel */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #20232a; /* Footer background */
+    color: #61dafb; /* Teks footer */
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #61dafb; /* Border footer */
+    position: flex;
+    width: 100%;
+    bottom: 0;
+}
